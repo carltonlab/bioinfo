@@ -126,11 +126,7 @@ def from_hist_data_to_historgram(d5,pattern):
         theaxis.set_xlabel('Chromosome '+ chromosome_list[k]) 
     fig.suptitle("closest startpoint of exon from {}".format(pattern))
     plt.tight_layout()
-    path = input('path to save pdf of the distance file: \n for Taka just hit enter')
-    if path =='':
-        path = '/Users/taka/genomicdata/distance from {} to ORF.pdf'.format(pattern)
-    else: 
-        pass
+    path = 'distance_{}_to_startcodon.pdf'.format(pattern)
     plt.subplots_adjust(top=0.9)
     plt.savefig(path)
     plt.show()
