@@ -6,3 +6,5 @@ start-posi-ex.txt
 temporary.txt
 c_elegans_ws274.fna
 c_elegans_ws274_cds.gff3
+*.d5
+*.pdf

@@ -31,7 +31,8 @@ def main():
     d2 = from_chrome_hits_to_chrome_plus_minus(d) # d2 has 12 keys; +/- for each chromosome, value dtype = ndarray
     d3 = from_cds_ls_to_chrome_plus_minus(df_csv) # d3 has 12 keys; +/- for each chromosome, value dtype = ndarray
     d5 = from_hits_to_hist_data(d2,d3) # d4 12 keys; +/- for each chromosome
-    from_hist_data_to_historgram(d5,args.pattern)
+    from_hist_data_to_histogram(d5,args.pattern)
+    print(d5)
 
 def file_input():
     parser = argparse.ArgumentParser(description='To mention sequence')
@@ -118,7 +119,7 @@ def from_hits_to_hist_data(d2,d3):
         d5['minimumdistance{}'.format(chromosome_list[i])] = np.append(d4['minimumdistance{}_plus'.format(chromosome_list[i])],d4['minimumdistance{}_minus'.format(chromosome_list[i])])
     return d5
 
-def from_hist_data_to_historgram(d5,pattern):
+def from_hist_data_to_histogram(d5,pattern):
     fig, axes = plt.subplots(3,2)
     
     for k,theaxis in enumerate(axes.flat): 
