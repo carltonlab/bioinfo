@@ -10,3 +10,10 @@ dna.fa
 *.d5
 *.pdf
 .*.swp
+*.gff3
+*.fa
+*.fasta
+attt.gff
+*.fnu
+ex.cov
+a
