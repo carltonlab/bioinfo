@@ -21,7 +21,7 @@ chromosome_list = ['I','II','III','IV','V','X']
 
 
 # this program 
-#input: files that contains matches posi strand etc,Hitcounts file, processed cds file, searched pattern
+#input: files that contains matches posi strand etc, Hitcounts file, processed cds file, searched pattern
 #output: histogram to show the distane between searched pattern and ORF
 
 def main():
