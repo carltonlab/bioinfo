@@ -12,7 +12,7 @@ import argparse
 import bisect as bi
 import matplotlib.pyplot as plt
 
-#all the global variable
+#all the global variables
 plus_strand_hits = ['chromosomeI_hit_plus','chromosomeII_hit_plus','chromosomeIII_hit_plus','chromosomeIV_hit_plus','chromosomeV_hit_plus','chromosomeX_hit_plus']
 minus_strand_hits = ['chromosomeI_hit_minus','chromosomeII_hit_minus','chromosomeIII_hit_minus','chromosomeIV_hit_minus','chromosomeV_hit_minus','chromosomeX_hit_minus']
 plus_strand_cds = ['chromosomeI_plus_cds','chromosomeII_plus_cds','chromosomeIII_plus_cds','chromosomeIV_plus_cds','chromosomeV_plus_cds','chromosomeX_plus_cds']
