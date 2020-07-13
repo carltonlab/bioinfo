@@ -1,7 +1,9 @@
-# sequencedistance
-Finding the distance to a given feature for a given genome sequence motif
+# bioinfo
+Tools for bioinformatics made in the Carlton lab
 
-## Purpose: to be able to quickly assess the disposition of sequence motifs towards genome features such as start codons, TSS, 3' UTRs, etc
+##sequencedistance
+###Finding the distance to a given feature for a given genome sequence motif
+### Purpose: to be able to quickly assess the disposition of sequence motifs towards genome features such as start codons, TSS, 3' UTRs, etc
 
 Motivation: we are interested in sequence repeats that correlate with high CO-recombination (e.g., ATTTGCCGATTTGCCG). 
 These are non-randomly placed in the genome at large scale (high in arms, low in centers.)
